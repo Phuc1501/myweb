@@ -1,0 +1,2422 @@
+/*Điện thoại dọc*/
+@media all and (min-width: 200px){
+    #nav > li{
+        display: block;
+    }
+    .banner img{
+        width: 100%;
+        height: 300px;
+        margin: 0 auto;
+    }
+    #sale-bumblebee{
+        top: 60px;
+        left: 10px;
+        width: 170px;
+        height: 230px ;
+    }
+    .bumblebee-sale-text h1{
+        top: 10px;
+        left: 25px;
+        font-size: 18px;
+    }
+    .bumblebee-sale-text p{
+        top: 35px;
+        margin: 0px 0px;
+        font-size:8px;
+    }
+    .bumblebee-sale-text h2{
+        left: 40px;
+        top: 70px;
+        font-size: 20px;
+    }
+    .bumblebee-sale-text h3{
+        font-size: 20px;
+        top: 95px;
+        left: 50px;
+    }
+    .bumblebee-sale-text h4{
+        font-size: 50px;
+        top: 65px;
+        left: 100px;
+    }
+    .bumblebee-sale-text h5{
+        width: 120px;
+        font-size: 8px;
+        top: 130px;
+        padding: 10px 0px;
+        left: 25px;
+        border-radius: 20px;
+    }
+    .bumblebee-sale-text  span{
+        top: 165px;
+        left: 42px;
+        font-size: 8px;
+    }
+    .bumblebee-sale-text a{
+        width: 100%;
+        top: 180px;
+        left: 0px;
+        padding: 10px 0px;
+        text-align: center;
+        font-size: 10px;
+    }   
+    /* Về chúng tôi*/
+    #about-us{
+        width: 100%;
+        height: 420px;
+        margin: 40px auto;
+    }
+    .text-img-about-us{
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .img-about-us{
+        width: 35%;
+        height: 350px;
+        margin-left: 0px;
+    }
+    .img-about-us img{
+        width: 100%;
+        height: 240px;
+        top: 85px;
+    }
+    .text-about-us{
+        width: 60%;
+        height: 350px;  
+        float: left;
+        margin-left: 15px;
+    }
+    .text-about-us h1{
+        top: 20px;
+        font-size: 27px;
+    }
+    .text-about-us span{
+        top: 70px;
+        font-size: 16px;
+    }
+    .text-about-us p{
+        top: 290px;
+        font-size: 16px;
+    }
+    .text-about-us b{
+        font-size: 16px;
+    }
+    /*Vấn đề*/
+    .problem{
+        text-align: center;
+        width: 100%;
+        height: 1500px;
+        margin: 50px auto;
+    }
+    .problem h1{
+        font-size: 30px;
+    }
+    .problem h2{
+        font-size: 20px;
+    }
+    .text-proble-img{
+        flex-wrap: wrap;
+    }
+    .text-problem{
+        width: 98%;
+        height: 450px;
+        margin: 10px auto;
+    }
+    .text-proble-img{
+        width: 100%;
+        height: 1400px;
+        margin: 0 auto;
+    }
+    /*Giả pháp*/
+    .optimal-solution{
+        width: 100%;
+    }
+    .optimal-solution h1{
+        font-size: 30px;
+    }
+    .optimal-solution h2{
+        font-size: 20px;
+    }
+    .text-solution h3{
+        font-size: 15px;
+    }
+    /*Giới thiệu sp*/
+    .introduce-product-width{
+        width: 100%;
+        height: 900px;
+        margin: 0 auto;
+    }
+    #introduce-product{
+        width: 100%;
+        height: 870px;
+    }
+    .introduce{
+        width: 100%;
+        height: 400px;
+    }
+    .introduce h1{
+        padding: 10px 0 0 10px;
+        font-size: 30px;
+    }
+    .introduce h2{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .introduce p{
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .introduce a{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0px;
+        margin: 10px auto;
+    }
+    .introduce hr{
+        margin: 20px 10px;
+    }
+    .product{
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .product-img{
+        margin-top: 50px;
+        width: 330px;
+        height: 330px;
+    }
+    .product-img1{
+        width: 100px;
+        height: 100px;
+        top: 70px;
+        left: 270px;
+    }
+    .product-img2{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        top: 200px;
+        left: 275px;
+    }
+    .product-img3{
+        width: 100px;
+        height: 100px;
+        top: 320px;
+        left: 200px;
+    }
+    /*dung tích sản phẩm*/
+    #capacity{
+        width: 100%;
+        height: 870px;
+        flex-direction: column-reverse;
+    }
+    .capacity-img{
+        width: 98%;
+        margin: 0 auto;
+    }
+    
+    .capacity-text{
+        width: 100%;
+    }
+    .capacity-text h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .capacity-text p{
+        color: #000;
+        font-size: 20px;
+        margin: 20px 10px ;
+    }
+    .capacity-text ul{
+        margin: 20px 50px;
+    }
+    .capacity-text ul li{
+        line-height: 30px;
+        color: #000;
+        font-size: 20px;
+    }
+/*ưu thế nổi bật*/
+.outstanding-advantages-text{
+    width: 100%;
+    height: 520px;
+    margin: 50px auto;
+}
+.outstanding-advantages-text h1{
+    font-size: 30px;
+}
+#outstanding-advantages{
+    width: 100%;
+    height: 450px;
+}
+.outstanding-advantages{
+    width: 350px;
+    height: 350px;
+}
+.outstanding-advantages1{
+    width: 300px;
+    height: 300px;
+}
+.outstanding-advantages2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.advantages{
+    top: 50px;
+    width: 120px;
+    height: 110px;
+    right: 10px;
+}
+.advantages img{
+    width: 45%;
+    height: 50px;
+    top: -30px;
+    left: 36px;
+}
+.advantages h2{
+    left: 34px;
+    top: 30px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.advantages p{
+    top: 50px;
+    font-size: 8px;
+}
+.advantages1{
+    top: 50px;
+    width: 120px;
+    height: 110px;
+    left: 10px;
+}
+.advantages1 img{
+    width: 45%;
+    height: 50px;
+    top: -30px;
+    left: 36px;
+}
+.advantages1 h2{
+    left: 29px;
+    top: 27px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.advantages1 p{
+    top: 45px;
+    font-size: 8px;
+}
+.advantages2{
+    bottom: 50px;
+    width: 120px;
+    height: 110px;
+    right:10px ; 
+}
+.advantages2 img{
+    width: 45%;
+    height: 50px;
+    top: -30px;
+    left: 36px;
+}
+.advantages2 h2{
+    left: 2px;
+    top: 27px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.advantages2 p{
+    top: 50px;
+    font-size: 8px;
+}
+.advantages3{
+    bottom: 50px;
+    width: 120px;
+    height: 110px;
+    left: 10px ; 
+}
+.advantages3 img{
+    width: 45%;
+    height: 50px;
+    top: -30px;
+    left: 36px;
+}
+.advantages3 h2{
+    left: 35px;
+    top: 25px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.advantages3 p{
+    top: 42px;
+    font-size: 8px;
+}
+/*Sản phẩm duo*/
+.introduce-product-width-duo{
+    width: 100%;
+    height: 870px;
+    margin: 0 auto;
+}
+#introduce-product-duo{
+    width: 100%;
+    height: 870px;
+    margin: 0 auto;
+}
+.introduce-duo{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+}
+.introduce-duo h1{
+    padding: 10px 0 0 10px;
+    font-size: 30px;
+}
+.introduce-duo h2{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.introduce-duo p{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.introduce-duo hr{
+    margin: 20px 10px;
+}
+.introduce-duo a{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 10px auto;
+}
+.product-duo{
+    width: 100%;
+    height: 450px;
+}
+.product-img-duo{
+    margin-top: 30px;
+    width: 385px;
+    height: 385px;
+}
+/*Ưu thế sp duo*/
+.outstanding-advantages-text-duo{
+    width: 100%;
+    height: 1140px;
+    margin: 60px auto;
+}
+.outstanding-advantages-text-duo h1{
+    font-size: 30px;
+}
+#outstanding-advantages-duo{
+    width: 100%;
+    height: 1050px;
+    margin: 0 auto;
+}
+.advantages-duo-text{
+    width: 98%;
+    height: 150px;
+    margin: 0 auto;
+}
+.advantages-duo-text h3{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.advantages-duo-text p{
+    margin-top: 20px;
+
+}
+/*Thông số sản phẩm*/
+.parameters{
+    width: 100%;
+    margin: 0 auto;
+}
+.parameters h1{
+    font-size: 30px;
+}
+#Product-parameters{
+    width: 100%;
+    height: 900px;
+    border-radius: 50px;
+    border: none;
+    margin: 0 auto;
+}
+.Product-parameters-text{
+    width: 48%;
+    height: 350px;
+}
+.Product-parameters-text ul{
+    margin: 10px 10px;
+}
+.Product-parameters-text ul li{
+    font-size: 14px;
+    line-height: 40px;
+}
+.Product-parameters-img{
+    width: 98%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px #1E90FF;
+}
+/*thành phần sản phẩm*/
+.ingredien-production h1{
+    font-size: 30px;
+}
+#ingredien-production{
+    width: 100%;
+    height: 1200px;
+    flex-wrap: wrap-reverse;
+}
+.ingredien-production-img{
+    width: 98%;
+    height: 400px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.ingredien-production-img img{
+    border-radius: 50px;
+}
+.ingredien-production-text{
+    width: 100%;
+    height: 720px;
+}
+.ingredien-production-text h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.ingredien-production-text p{
+    font-size: 14px;
+}
+/*liệu trình giảm mụn*/
+.acne-reduction-program{
+    height: 1350px;
+    margin: 50px auto;
+}
+.acne-reduction-program h1{
+    font-size: 30px;
+}
+#acne-reduction-program{
+    width: 100%;
+    height: 1200px;
+    border-radius: 50px;
+    border: none;
+}
+.acne-reduction{
+    width: 100%;
+    height: 350px;
+}
+.img-acne-reduction{
+    width: 40%;
+    height: 300px;
+}
+.img-acne-reduction1{
+    width: 40%;
+    height: 300px;
+}
+.img-acne-reduction2{
+    width: 40%;
+    height: 300px;
+}
+.img-acne-reduction img{
+    width: 100%;
+    left: -100px;
+}
+.img-acne-reduction1 img{
+    width: 100%;
+    height: 360px;
+    left: -80px;
+    top: -5px;
+}
+.img-acne-reduction2 img{
+    width: 100%;
+    left: -80px;
+}
+/*Hướng dẫn sử dụng*/
+#text-user-manual{
+    width: 100%;
+    height: 850px;
+    margin: 50px auto;
+}
+.text-user-manual{
+    width: 100%;
+    height: 400px;
+    margin-right: 0px;
+}
+.img-user-manual{
+    width: 95%;
+    height: 400px;
+}
+#text-user-manual h1{
+    font-size: 20px;
+}
+
+#text-user-manual ul li{
+    font-size: 15px;
+}
+#text-user-manual iframe{
+    width: 100%;
+    height: 100%;
+}
+/*Dich vụ*/
+#service-bum{
+    width: 100%;
+    height: 1250px;
+    margin: 5px auto;
+}
+.service{
+    width: 100%;
+    height: 1110px;
+}
+.service-bumble h1{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.service1{
+    width: 98%;
+    height: 200px;
+    margin: 10px auto;
+}
+.service1 i{
+    font-size: 50px;;
+}
+.service1 h2{
+    font-size: 20px;
+}
+.service1 p{
+    font-size: 16px;
+
+}
+/*Nhận xét khách hàng*/
+#text-feedback-customer{
+    width: 100%;
+    height: 1750px;
+    margin: 50px auto;
+}
+.feedback-customer h1{
+    font-size: 30px;
+}
+.feedback{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+}
+.img-feedback img{
+    width: 130px;
+    height: 130px;
+    top: 20px;
+    left: 125px;
+}
+.text-feedback {
+    top: 180px;
+    left: 10px;
+}
+.star1 img{
+    width: 15px;
+    height: 15px;
+}
+.text-customer span{
+    font-size: 14px;
+}
+.text-customer h4{
+    font-size: 16px;
+}
+.feedback1{
+    width: 100%;
+    height: 400px;
+    margin: 10px 2px;
+    border: 3px solid yellow;
+}
+.img-feedback1 img{
+    width: 130px;
+    height: 130px;
+    top: 20px;
+    left: 125px;
+}
+.text-customer1 span{
+    font-size: 14px;
+}
+.text-customer1  h4{
+    font-size: 16px;
+    left: 0px;
+    margin-top: 20px;
+}
+.text-feedback1{
+    position: absolute;
+    left:20px;
+    top: 210px;
+}
+.star2 img{
+    width: 15px;
+    height: 15px;
+}
+.star2{
+    position: absolute;
+    left: 0px;
+    top: -25px;
+}
+/* ưu đãi*/
+.vocher{
+    width: 100%;
+    height: 900px;
+    margin: 0px auto;
+}
+.vocher-time{
+    top: 0px;
+    left: 0px;
+    width: 96%;
+    height: 350px;
+}
+.item{
+    margin: 0 10px;
+    height: 70px;
+    width: 70px;
+    border: 2px solid #03e9f4;
+}
+.text-endow{
+    top: 10px;
+}
+.text-endow h1{
+    font-size: 30px;
+}
+.text-endow h2{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.countdown{
+    top: 250px;
+}
+.item p{
+    font-size: 15px;
+}
+.item span{
+    font-size: 15px;
+    margin-top: 12px;
+}
+/* form đăng kí*/
+.register{
+    width: 100%;
+    height: 500px;
+}
+.form-field input{
+    width: 98%;
+    height: 50px;
+    padding:0 25px 0 5px ;
+}
+
+.form-field{
+    width: 100%;
+    margin: 20px 0px;
+}
+.form{
+    width: 100%;
+    height: 500px;
+}
+.form-text{
+    width: 95%;
+    top: 130px;
+    left: 7px;
+}
+
+#login1{
+    left: 10px;
+}
+#login1 a{
+    padding: 15px 70px;
+    font-size: 20px;
+}
+/*footer*/
+.text-bumblebee-contact{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+}
+.bumblebee-contact{
+    width: 100%;
+    height: 900px;
+}
+#address{
+    width: 100%;
+    height: 210px;
+    margin-top: 10px;
+}
+#address h1{
+    font-size: 16px;
+    margin-left: 30px;
+}
+#address li a{
+    font-size: 13px;
+}
+#address ul li i{
+    font-size: 13px;
+    margin-left: 10px;
+}
+.address-icon{
+    margin-left: 10px;
+}
+.address-icon img{
+    width: 20px;
+    height: 20px;
+}
+#news{
+    width: 100%;
+    height: 350px;
+    margin-top: -50px;
+}
+#news h2{
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+#news ul li a{
+    font-size: 13px;
+}
+#news ul li i{
+    font-size: 13px;
+    margin-left: 10px;
+}
+#client{
+    width: 100%;
+    height: 230px;
+    margin-top: -50px;
+}
+#client h2{
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+#client ul li a{
+    font-size: 13px;
+    
+}
+#client ul li i{
+    font-size: 13px;
+    margin-left: 10px;
+}
+}
+/* Điện thoại ngang */
+/* máy tính bảng */
+@media all and (min-width: 740px) {
+    #nav > li{
+        display: block;
+    }
+    #nav li a{
+        padding: 0 10px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+    #logo{
+        float: left;
+        margin: 0 240px;
+    }
+    #logo a{
+        color: #CC6633;
+        font-size: 30px;
+        text-transform: uppercase;
+        line-height: 50px;
+        font-family: 'Rubik Iso', cursive;
+        text-decoration: none;
+    }
+    .banner img{
+        width: 100%;
+        height: 500px;
+    }
+    #sale-bumblebee{
+        top: 100px;
+        left: 40px;
+        width: 330px;
+        height: 360px ;
+    }
+    .bumblebee-sale-text h1{
+        top: 10px;
+        left: 65px;
+        font-size: 30px;
+    }
+    .bumblebee-sale-text p{
+        top: 55px;
+        margin: 0px 0px;
+        font-size:16px;
+    }
+    .bumblebee-sale-text h2{
+        left: 80px;
+        top: 120px;
+        font-size: 40px;
+    }
+    .bumblebee-sale-text h3{
+        font-size: 40px;
+        top: 165px;
+        left: 105px;
+    }
+    .bumblebee-sale-text h4{
+        font-size: 90px;
+        top: 115px;
+        left: 210px;
+    }
+    .bumblebee-sale-text h5{
+        width: 200px;
+        font-size: 16px;
+        top: 220px;
+        padding: 10px 0px;
+        left: 65px;
+        border-radius: 20px;
+    }
+    .bumblebee-sale-text  span{
+        top: 270px;
+        left: 80px;
+        font-size: 16px;
+    }
+    .bumblebee-sale-text a{
+        width: 100%;
+        top: 300px;
+        left: 0px;
+        padding: 10px 0px;
+        text-align: center;
+        font-size: 20px;
+    }   
+    /* Về chúng tôi*/
+    #about-us{
+        width: 100%;
+        height: 350px;
+        margin: 70px auto;
+    }
+    .text-img-about-us{
+        width: 98%;
+        height: 340px;
+        margin: 0 auto;
+    }
+    .img-about-us{
+        width: 35%;
+        height: 310px;
+        margin-left: 0px;
+    }
+    .img-about-us img{
+        width: 100%;
+        height: 410px;
+        top: -40px;
+    }
+    .text-about-us{
+        width: 60%;
+        height: 310px;  
+        float: left;
+        margin-left: 30px;
+    }
+    .text-about-us h1{
+        top: 20px;
+        font-size: 40px;
+    }
+    .text-about-us span{
+        top: 80px;
+        font-size: 20px;
+    }
+    .text-about-us p{
+        top: 260px;
+        font-size: 20px;
+    }
+    .text-about-us b{
+        font-size: 25px;
+    }
+    /*Vấn đề*/
+    .problem{
+        text-align: center;
+        width: 98%;
+        height: 1100px;
+        margin: 70px auto;
+    }
+    .problem h1{
+        font-size: 40px;
+    }
+    .problem h2{
+        font-size: 30px;
+    }
+    .text-proble-img{
+        height: 1000px;
+    }
+    .text-problem{
+        width: 45%;
+        height: 450px;
+        border-radius: 20px;
+        margin: 10px auto;
+    }
+    /*Giả pháp*/
+    .optimal-solution{
+        width: 98%;
+    }
+    
+    .optimal-solution h1{
+        font-size: 40px;
+    }
+    .optimal-solution h2{
+        font-size: 30px;
+    }
+    .text-solution h3{
+        font-size: 20px;
+    }
+    /*Giới thiệu sp*/
+    .introduce-product-width{
+        width: 100%;
+        height: 1010px;
+    }
+    #introduce-product{
+        width: 70%;
+        height: 1010px;
+    }
+    .introduce{
+        width: 100%;
+        height: 450px;
+    }
+    .introduce h1{
+        padding: 10px 0;
+        font-size: 40px;
+    }
+    .introduce h2{
+        font-size: 25px;
+    }
+    .introduce p{
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+    .introduce a{
+        width: 50%;
+        padding: 10px 20px;
+        margin: 0px 0px;
+    }
+    .product{
+        width: 100%;
+        height: 500px;
+        position: relative;
+    }
+    .product-img{
+        margin-top: 30px;
+        width: 400px;
+        height: 400px;
+    }
+    .product-img1{
+        width: 130px;
+        height: 130px;
+        top: 60px;
+        left: 330px;
+    }
+    .product-img2{
+        width: 130px;
+        height: 130px;
+        top: 220px;
+        left: 340px;
+    }
+    .product-img3{
+        width: 130px;
+        height: 130px;
+        top: 350px;
+        left: 240px;
+    }
+    /*dung tích sản phẩm*/
+    #capacity{
+        width: 70%;
+        height: 870px;
+        flex-direction: column-reverse;
+    }
+    .capacity-img{
+        width: 100%;
+        border-radius: 100px;
+    }
+    .capacity-img img{
+        border-radius: 100px;
+    }
+    .capacity-text{
+        width: 90%;
+    }
+    .capacity-text h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    .capacity-text p{
+        color: #000;
+        font-size: 20px;
+        margin: 20px 10px ;
+    }
+    .capacity-text ul{
+        margin: 20px 50px;
+    }
+    .capacity-text ul li{
+        line-height: 30px;
+        color: #000;
+        font-size: 20px;
+    }
+/*ưu thế nổi bật*/
+.outstanding-advantages-text{
+    width: 100%;
+    height: 600px;
+    margin: 50px auto;
+}
+.outstanding-advantages-text h1{
+    font-size: 40px;
+}
+#outstanding-advantages{
+    width: 100%;
+    height: 500px;
+}
+.outstanding-advantages{
+    width: 400px;
+    height: 400px;
+}
+.outstanding-advantages1{
+    width: 350px;
+    height: 350px;
+}
+.outstanding-advantages2{
+    width: 300px;
+    height: 300px;
+}
+.advantages{
+    top: 50px;
+    width: 210px;
+    height: 140px;
+    right: 100px;
+}
+.advantages img{
+    width: 45%;
+    height: 70px;
+    top: -40px;
+    left: 60px;
+}
+.advantages h2{
+    left: 60px;
+    top: 35px;
+    font-size: 20px;
+}
+.advantages p{
+    top: 60px;
+    font-size: 11px;
+}
+.advantages1{
+    top: 50px;
+    width: 210px;
+    height: 140px;
+    left: 100px;
+}
+.advantages1 img{
+    width: 45%;
+    height: 70px;
+    top: -40px;
+    left: 60px;
+}
+.advantages1 h2{
+    left: 60px;
+    top: 35px;
+    font-size: 20px;
+}
+.advantages1 p{
+    top: 60px;
+    font-size: 11px;
+}
+.advantages2{
+    bottom: 50px;
+    width: 210px;
+    height: 140px;
+    right: 100px ; 
+}
+.advantages2 img{
+    width: 45%;
+    height: 70px;
+    top: -40px;
+    left: 60px;
+}
+.advantages2 h2{
+    left: 10px;
+    top: 35px;
+    font-size: 20px;
+}
+.advantages2 p{
+    top: 60px;
+    font-size: 11px;
+}
+.advantages3{
+    bottom: 50px;
+    width: 210px;
+    height: 140px;
+    left: 100px ; 
+}
+.advantages3 img{
+    width: 45%;
+    height: 70px;
+    top: -40px;
+    left: 60px;
+}
+.advantages3 h2{
+    left: 60px;
+    top: 35px;
+    font-size: 20px;
+}
+.advantages3 p{
+    top: 60px;
+    font-size: 11px;
+}
+/*Sản phẩm duo*/
+.introduce-product-width-duo{
+    width: 100%;
+    height: 1010px;
+}
+#introduce-product-duo{
+    width: 70%;
+    height: 1010px;
+}
+.introduce-duo{
+    width: 100%;
+    height: 450px;
+}
+.introduce-duo h1{
+    padding: 10px 0;
+    font-size: 40px;
+}
+.introduce-duo h2{
+    font-size: 25px;
+}
+.introduce-duo p{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.introduce-duo a{
+    width: 50%;
+    padding: 10px 20px;
+    margin: 0px 0px;
+}
+.product-duo{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.product-img-duo{
+    margin-top: 0px;
+    width: 500px;
+    height: 500px;
+}
+/*Ưu thế sp duo*/
+.outstanding-advantages-text-duo{
+    width: 100%;
+    height: 670px;
+}
+.outstanding-advantages-text-duo h1{
+    font-size: 40px;
+}
+#outstanding-advantages-duo{
+    width: 100%;
+    height: 570px;
+    justify-content: space-around;
+}
+.advantages-duo-text{
+    width: 30%;
+    height: 200px;
+}
+.advantages-duo-text h2{
+    top: -52px;
+    left: 100px;
+    font-size: 90px;
+}
+/*Thông số sản phẩm*/
+.parameters{
+    width: 100%;
+}
+.parameters h1{
+    font-size: 40px;
+}
+#Product-parameters{
+    width: 80%;
+    height: 900px;
+    border-radius: 50px;
+}
+.Product-parameters-text{
+    width: 48%;
+    height: 350px;
+}
+.Product-parameters-text ul{
+    margin: 10px 10px;
+}
+.Product-parameters-text ul li{
+    font-size: 16px;
+    line-height: 40px;
+}
+.Product-parameters-img{
+    width: 96%;
+    margin-left: -2px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px #1E90FF;
+}
+/*thành phần sản phẩm*/
+.ingredien-production h1{
+    font-size: 40px;
+}
+#ingredien-production{
+    width: 80%;
+    height: 950px;
+    flex-wrap: wrap-reverse;
+}
+.ingredien-production-img{
+    width: 100%;
+    height: 400px;
+    border-radius: 50px;
+}
+.ingredien-production-img img{
+    border-radius: 50px;
+}
+.ingredien-production-text{
+    width: 100%;
+    height: 500px;
+}
+.ingredien-production-text h2{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+}
+.ingredien-production-text p{
+    font-size: 16px;
+}
+/*liệu trình giảm mụn*/
+.acne-reduction-program{
+    height: 1330px;
+}
+.acne-reduction-program h1{
+    font-size: 40px;
+}
+#acne-reduction-program{
+    width: 70%;
+    height: 1200px;
+    border-radius: 50px;
+    border: none;
+}
+.acne-reduction{
+    width: 100%;
+    height: 350px;
+}
+.img-acne-reduction{
+    width: 40%;
+    height: 300px;
+}
+.img-acne-reduction1{
+    width: 40%;
+    height: 300px;
+}
+.img-acne-reduction2{
+    width: 40%;
+    height: 300px;
+}
+.img-acne-reduction img{
+    width: 70%;
+    left: -40px;
+}
+.img-acne-reduction1 img{
+    width: 100%;
+    height: 360px;
+    left: -110px;
+    top: -5px;
+}
+.img-acne-reduction2 img{
+    width: 100%;
+    left: -110px;
+}
+/*Hướng dẫn sử dụng*/
+#text-user-manual{
+    width: 80%;
+    height: 850px;
+    margin: 50px auto;
+}
+.text-user-manual{
+    width: 100%;
+    height: 400px;
+    margin-right: 0px;
+}
+.img-user-manual{
+    width: 100%;
+    height: 400px;
+
+}
+#text-user-manual h1{
+    font-size: 20px;
+}
+
+#text-user-manual ul li{
+    font-size: 18px;
+}
+#text-user-manual iframe{
+    width: 100%;
+    height: 100%;
+}
+/*Dich vụ*/
+#service-bum{
+    width: 100%;
+    height: 900px;
+    margin: 5px auto;
+}
+.service-bumble{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.service{
+    width: 100%;
+    height: 750px;
+}
+.service h1{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.service1{
+    width: 45%;
+    height: 220px;
+    margin-bottom: 15px;
+}
+.service1 i{
+    font-size: 50px;;
+}
+.service1 h2{
+    font-size: 20px;
+}
+.service1 p{
+    font-size: 16px;
+
+}
+/*Nhận xét khách hàng*/
+#text-feedback-customer{
+    width: 100%;
+    height: 930px;
+    justify-content: space-evenly;
+}
+.feedback-customer h1{
+    font-size: 40px;
+    margin: 50px 0 -50px 0;
+}
+.feedback{
+    width: 46%;
+    height: 420px;
+    margin: 0px -10px 0 0;
+}
+.img-feedback img{
+    width: 130px;
+    height: 130px;
+    top: 20px;
+    left: 125px;
+}
+.text-feedback {
+    top: 180px;
+    left: 10px;
+}
+.star1 img{
+    width: 15px;
+    height: 15px;
+}
+.text-customer span{
+    font-size: 16px;
+}
+.text-customer h4{
+    font-size: 18px;
+}
+.feedback1{
+    width: 46%;
+    height: 420px;
+    border: 3px solid yellow;
+}
+.img-feedback1 img{
+    width: 130px;
+    height: 130px;
+    top: 20px;
+    left: 125px;
+}
+.text-customer1 span{
+    font-size: 16px;
+}
+.text-customer1  h4{
+    font-size: 18px;
+    left: 0px;
+    margin-top: 20px;
+}
+.text-feedback1{
+    position: absolute;
+    left:20px;
+    top: 210px;
+}
+.star2 img{
+    width: 15px;
+    height: 15px;
+}
+.star2{
+    position: absolute;
+    left: 0px;
+    top: -25px;
+}
+/* ưu đãi*/
+.vocher{
+    width: 100%;
+    height: 1000px;
+}
+.vocher-time{
+    top: 0px;
+    left: 0px;
+    width: 96%;
+    height: 350px;
+}
+.item{
+    margin: 0 10px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #03e9f4;
+}
+.text-endow{
+    position: absolute;
+    top: 10px;
+}
+.text-endow h1{
+    font-size: 40px;
+}
+.text-endow h2{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.countdown{
+    top: 230px;
+}
+.item p{
+    font-size: 18px;
+}
+.item span{
+    font-size: 18px;
+    margin-top: 12px;
+}
+/* form đăng kí*/
+.register{
+    width: 70%;
+    height: 500px;
+}
+.form-field input{
+    width: 100%;
+    height: 50px;
+    padding:0 25px 0 5px ;
+}
+
+.form-field{
+    width: 100%;
+    margin: 20px 0px;
+}
+.form{
+    width: 100%;
+    height: 500px;
+}
+.form-text{
+    width: 95%;
+    top: 130px;
+    left: 7px;
+}
+.form-text h1{
+    top: -100px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+#login1{
+    left: 10px;
+}
+#login1 a{
+    padding: 15px 80px;
+    font-size: 20px;
+}
+
+#login1 a span{
+    position: absolute;
+    display: block;
+}
+/*footer*/  
+.text-bumblebee-contact{
+    width: 100%;
+    height: 660px;
+}
+.bumblebee-contact{
+    width: 100%;
+    height: 650px;
+    justify-content: start;
+}
+#address{
+    width: 40%;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#address h1{
+    font-size: 20px;
+    margin-left: 0px;
+}
+#address li a{
+    font-size: 16px;
+}
+#address ul li i{
+    font-size: 16px;
+}
+.address-icon{
+    margin-left: 10px;
+}
+.address-icon img{
+    width: 30px;
+    height: 30px;
+}
+#news{
+    width: 55%;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+#news h2{
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+#news ul li a{
+    font-size: 16px;
+}
+#news ul li i{
+    font-size: 16px;
+}
+#client{
+    width: 45%;
+    height: 230px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+#client h2{
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+#client ul li a{
+    font-size: 16px;
+}
+#client ul li i{
+    font-size: 16px;;
+}
+}
+/* màn hình máy tính */
+@media all and (min-width: 1024px){
+    #header .menu-mobile-btn{
+        display: none;
+    }
+    #nav > li{
+        display: inline-block;
+    }
+    #header{
+        overflow: visible;
+    }
+    #nav li a{
+        font-size: 17px;
+    }
+    #logo{
+        float: left;
+        margin: 0 20px;
+    }
+    .banner img{
+        width: 100%;
+        height: 700px;
+    }
+    #sale-bumblebee{
+        top: 120px;
+        left: 130px;
+        width: 700px;
+        height: 500px ;
+    }
+    .bumblebee-sale-text h1{
+        top: 20px;
+        left: 230px;
+        font-size: 40px;
+    }
+    .bumblebee-sale-text p{
+        top: 80px;
+        margin: 0 90px;
+        font-size: 16px;
+    }
+    .bumblebee-sale-text h2{
+        left: 250px;
+        top: 140px;
+        font-size: 50px;
+    }
+    .bumblebee-sale-text h3{
+        font-size: 50px;
+        top: 200px;
+        left: 280px;
+    }
+    .bumblebee-sale-text h4{
+        font-size: 140px;
+        top: 125px;
+        left: 400px;
+    }
+    .bumblebee-sale-text h5{
+        width: 60%;
+        font-size: 20px;
+        top: 300px;
+        padding: 10px 0px;
+        left: 140px;
+    }
+    .bumblebee-sale-text  span{
+        top: 360px;
+        left: 255px;
+        font-size: 18px;
+    }
+    .bumblebee-sale-text a{
+        width: 50%;
+        top: 400px;
+        left: 175px;
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+    /*Về chúng tôi*/
+    #about-us{
+        width: 70%;
+        height: 410px;
+        margin: 80px auto;
+    }
+    .text-img-about-us{
+        width: 100%;
+        height: 350px;
+    }
+    .img-about-us{
+        width: 35%;
+        height: 100%;
+    }
+    .img-about-us img{
+        width: 100%;
+        height: 470px;
+        top: -70px;
+    }
+    .text-about-us{
+        width: 62%;
+        height: 100%;  
+        margin-left: 15px;
+    }
+    .text-about-us h1{
+        font-size: 50px;
+        top: 30px;
+    }
+    .text-about-us span{
+        font-size: 20px;
+        top: 110px;
+    }
+    .text-about-us b{
+        font-size: 25px;
+    }
+    .text-about-us p{
+        font-size: 20px;
+        top: 73%;
+    }
+    /*Vấn đề*/
+    .problem{
+        width: 80%;
+        height: 610px;
+    }
+    .problem h1{
+        font-size: 50px;
+    }
+    .problem h2{
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .text-proble-img{
+        width: 100%;
+        height: 502px;
+    }
+    .text-problem{
+        width: 30%;
+        height: 450px;
+    }
+    .text-problem h3{
+        font-size: 25px;
+    }
+    .text-problem p{
+        font-size: 18px;
+    }
+    .text-problem img{
+        width: 100%;
+        height: 250px;
+    }
+    /*Giải pháp*/
+    .optimal-solution{
+        width: 80%;
+        height: 610px;
+        margin: 40px auto;
+    }
+    .optimal-solution h1{
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .optimal-solution h2{
+        font-size: 30px;
+        margin: 10px 0;
+    }
+    .img-solution img{
+        width: 100%;
+        height: 350px;
+    }
+    .text-solution h3{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    /*Giới thiệu sản phẩm*/
+    .introduce-product-width{
+        width: 100%;
+        height: 650px;
+    }
+    #introduce-product{
+        width: 80%;
+        height: 650px;
+    }
+    .introduce{
+        width: 40%;
+        height: 550px;
+        margin-bottom: 50px;
+    }
+    .introduce h1{
+        font-size: 40px;
+    }
+    .introduce hr{
+        width: 85px;
+        margin: 20px 0;
+    }
+    .introduce h2{
+        font-size: 25px;
+    }
+    .introduce p{
+        font-size: 20px;
+    }
+    .introduce a{
+        font-size: 20px;
+        width: 35%;
+        padding: 10px 20px;
+        margin: 0px 0px;
+    }
+    .product{
+        width: 45%;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    .product-img{
+        width: 500px;
+        height: 500px;
+    }
+    .product-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .product-img1{
+        width: 150px;
+        height: 150px;
+        top: 50px;
+        left: 430px;
+    }
+    .product-img1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .product-img2{
+        width: 150px;
+        height: 150px;
+        top: 250px;
+        left: 450px;
+    }
+    .product-img2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .product-img3{
+        width: 150px;
+        height: 150px;
+        top: 410px;
+        left: 320px;
+    }
+    .product-img3 img{
+        width: 100%;
+        height: 100%;
+    }
+    /*Dung tích sản phẩm*/
+    #capacity{
+        width: 75%;
+        height: 500px;
+        margin: 80px auto;
+        flex-direction: row;
+    }
+    .capacity-img{
+        width: 50%;
+        height: 450px;
+    }
+    .capacity-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .capacity-text{
+        width: 40%;
+        height: 450px;
+    }
+    .capacity-text h1{
+        font-size: 30px;
+    }
+    .capacity-text p{
+        font-size: 20px;
+        margin: 20px 10px ;
+    }
+    .capacity-text ul{
+        margin: 20px 50px;
+    }
+    .capacity-text ul li{
+        font-size: 20px;
+    }
+    /*ưu thế nổi bật*/
+    .outstanding-advantages-text{
+        width: 100%;
+        height: 800px;
+    }
+    .outstanding-advantages-text h1{
+        font-size: 50px;
+        padding-top: 20px;
+    }
+    #outstanding-advantages{
+        width: 80%;
+        height: 700px;
+    }
+    .outstanding-advantages{
+        width: 600px;
+        height: 600px;
+    }
+    .outstanding-advantages1{
+        width: 500px;
+        height: 500px;
+    }
+    .outstanding-advantages2{
+        width: 450px;
+        height: 450px;
+    }
+    .outstanding-advantages2 img{
+        width: 100%;
+        height: 100%;
+    }
+    .advantages{
+        top: 50px;
+        width: 300px;
+        height: 200px;
+        right: 15%;
+    }
+    .advantages img{
+        width: 45%;
+        height: 110px;
+        top: -50px;
+        left: 75px;
+    }
+    .advantages h2{
+        left: 100px;
+        top: 70px;
+        font-size: 20px;
+    }
+    .advantages p{
+        top: 100px;
+        font-size: 15px;
+    }
+    .advantages1{
+        top: 50px;
+        width: 300px;
+        height: 200px;
+        left: 15%;
+    }
+    .advantages1 img{
+        width: 45%;
+        height: 110px;
+        top: -50px;
+        left: 75px;
+    }
+    .advantages1 h2{
+        left: 100px;
+        top: 70px;
+        font-size: 20px;
+    }
+    .advantages1 p{
+        top: 100px;
+        font-size: 15px;
+    }
+    .advantages2{
+        bottom: 50px;
+        width: 300px;
+        height: 200px;
+        right:15% ; 
+    }
+    .advantages2 img{
+        width: 45%;
+        height: 110px;
+        top: -50px;
+        left: 75px;
+    }
+    .advantages2 h2{
+        left: 50px;
+        top: 70px;
+        font-size: 20px;
+    }
+    .advantages2 p{
+        top: 100px;
+        font-size: 15px;
+    }
+    .advantages3{
+        bottom: 50px;
+        width: 300px;
+        height: 200px;
+        left: 15%;
+    }
+    .advantages3 img{
+        width: 45%;
+        height: 110px;
+        top: -50px;
+        left: 75px;
+    }
+    .advantages3 h2{
+        left: 100px;
+        top: 70px;
+        font-size: 20px;
+    }
+    .advantages3 p{
+        top: 100px;
+        font-size: 15px;
+    }
+    /*Sản phẩm duo*/
+    .introduce-product-width-duo{
+        width: 100%;
+        height: 550px;
+    }
+    #introduce-product-duo{
+        width: 80%;
+        height: 540px;
+    }
+    .introduce-duo{
+        width: 45%;
+        height: 500px;
+    }
+    .introduce-duo h1{
+        font-size: 40px;
+    }
+    .introduce-duo hr{
+        width: 85px;
+        margin: 20px 0;
+    }
+    .introduce-duo h2{
+        font-size: 25px;
+    }
+    .introduce-duo p{
+        font-size: 20px;
+    }
+    .introduce-duo a{
+        font-size: 20px;
+        width: 35%;
+        padding: 10px 20px;
+        margin: 0px 0px;
+    }
+    .product-duo{
+        width: 45%;
+        height: 450px;
+    }
+    .product-img-duo{
+        width: 450px;
+        height: 450px;
+    }
+    /*Ưu thế sp duo*/
+    .outstanding-advantages-text-duo{
+        width: 100%;
+        height: 430px;
+        margin: 70px auto;
+    }
+    .outstanding-advantages-text-duo h1{
+        font-size: 50px;
+        padding: 20px;
+    }
+    #outstanding-advantages-duo{
+        width: 80%;
+        height: 280px;
+    }
+    .advantages-duo-text{
+        width: 17%;
+        height: 200px;
+    }
+    .advantages-duo-text h3{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .advantages-duo-text p{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    /*Thông số sản phẩm*/
+    .parameters{
+        width: 100%;
+    }
+    .parameters h1{
+        font-size: 50px;
+    }
+    #Product-parameters{
+        width: 70%;
+        height: 500px;
+    }
+    .Product-parameters-text{
+        width: 26%;
+        height: 450px;
+    }
+    .Product-parameters-text ul{
+        margin: 10px 20px;
+    }
+    .Product-parameters-text ul li{
+        font-size: 20px;
+    }
+    .Product-parameters-img{
+        width: 40%;
+        height: 450px;
+        margin-left: 20px;
+    }
+    /*thành phần sản phẩm*/
+    .ingredien-production h1{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    #ingredien-production{
+        width: 80%;
+        height: 600px;
+    }
+    .ingredien-production-img{
+        width: 40%;
+        height: 550px;
+        border-radius: 100px;
+    }
+    .ingredien-production-img img{
+        width: 100%;
+        height: 100%;
+        border-radius: 100px;
+    }
+    .ingredien-production-text{
+        width: 59%;
+        height: 570px;
+    }
+    .ingredien-production-text h2{
+        font-size: 25px;
+        margin-top: 25px;
+    }
+    .ingredien-production-text p{
+        margin: 10px 20px;
+        font-size: 16px;
+    }
+    /*liệu trình giảm mụn*/
+    .acne-reduction-program{
+        width: 100%;
+        height: 550px;
+        margin: 50px auto;
+    }
+    .acne-reduction-program h1{
+        font-size: 50px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    #acne-reduction-program{
+        width: 80%;
+        height: 400px;
+        border: 4px solid #0000DD
+    }
+    .acne-reduction{
+        width: 30%;
+        height: 350px;
+    }
+    .img-acne-reduction{
+        width: 40%;
+        height: 300px;
+    }
+    .img-acne-reduction1{
+        width: 40%;
+        height: 300px;
+    }
+    .img-acne-reduction2{
+        width: 40%;
+        height: 300px;
+    }
+    .img-acne-reduction img{
+        width: 80%;
+        height: 300px;
+        left: -55px;
+    }
+    .img-acne-reduction1 img{
+        width: 80%;
+        height: 370px;
+        left: -20px;
+        top: -5px;
+    }
+    .img-acne-reduction2 img{
+        width: 80%;
+        height: 300px;
+        left: -25px;
+    }
+    .text-acne-reduction{
+        width: 55%;
+        height: 300px;
+    }
+    .text-acne-reduction h2{
+        font-size: 80px;
+        top: -20px;
+    }
+    .text-acne-reduction h3{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .text-acne-reduction p{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    /*Hướng dẫn sử dụng*/
+    #text-user-manual{
+        width: 100%;
+        height: 450px;
+    }
+    .text-user-manual{
+        width: 30%;
+        height: 400px;
+        margin-right: 30px;
+    }
+    .img-user-manual{
+        width: 30%;
+        height: 400px;
+
+    }
+    #text-user-manual h1{
+        font-size: 25px;
+        margin-left: 10px;
+    }
+    #text-user-manual ul {
+        margin-left: 60px;
+    }
+    #text-user-manual ul li{
+        font-size: 16px;
+    }
+    #text-user-manual h2{
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    /*Dich vụ*/
+    #service-bum{
+        width: 100%;
+        height: 500px;
+    }
+    .service-bumblebee{
+        width: 100%;
+        height: 100%;
+    }
+    .service-bumble{
+        width: 100%;
+        height: 100%;
+    }
+    .service-bumble h1{
+        font-size: 50px;
+    }
+    .service{
+        width: 90%;
+        height: 400px;
+    }
+    .service1{
+        width: 18%;
+        height: 320px;  
+    }
+    .service1 i{
+        font-size: 60px;
+        margin-top: 15px;
+    }
+    .service1 h2{
+        font-size: 25px;
+        margin-top: 15px;
+    }
+    .service1 p{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    /*Nhận xét khách hàng*/
+    #text-feedback-customer{
+        width: 70%;
+        height: 850px;
+    }
+    .feedback-customer h1{
+        font-size: 50px;
+        margin: 50px 0 -50px 0;
+    }
+    .feedback{
+        width: 80%;
+        height: 250px;
+        margin-top: 20px;
+    }
+    .img-feedback img{
+        width: 150px;
+        height: 150px;
+        top: 50px;
+        left: 10px;
+    }
+    .text-feedback {
+        top: 30px;
+        left: 200px;
+    }
+    .star1 img{
+        width: 25px;
+        height: 25px;
+    }
+    .text-customer span{
+        font-size: 16px;
+    }
+    .text-customer h4{
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .feedback1{
+        width: 30%;
+        height: 500px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+    .img-feedback1 img{
+        width: 150px;
+        height: 150px;
+        top: 40px;
+        left: 30%;
+    }
+    .text-customer1 span{
+        font-size: 16px;
+    }
+    .text-customer1  h4{
+        font-size: 20px;
+        left: 20%;
+        margin-top: 20px;
+    }
+    .text-feedback1{
+        left: 20px;
+        top: 250px;
+    }
+    .star2 img{
+        width: 25px;
+        height: 25px;
+    }
+    .star2{
+        left: 0px;
+        top: -25px;
+    }
+    /* ưu đãi*/
+    .vocher{
+        width: 100%;
+        height: 600px;
+    }
+    .vocher-time{
+        top: 50px;
+        left: 0px;
+        width: 45%;
+        height: 100%;
+    }
+    .item{
+        margin-right: 20px;
+        height: 140px;
+        width: 140px;
+    }
+    .text-endow{
+        top: 10px;
+    }
+    .text-endow h1{
+        font-size: 40px;
+    }
+    .text-endow h2{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .countdown{
+        top: 250px;
+    }
+    .item p{
+        font-size: 20px;
+    }
+    .item span{
+        font-size: 30px;
+        margin-top: 12px;
+    }
+    /* form đăng kí*/
+    .register{
+        width: 45%;
+        height: 600px;
+    }
+    .form-field{
+        width: 350px;
+        margin: 20px 0;
+    }
+    .form{
+        width: 500px;
+        height: 500px;
+    }
+    .form-text{
+        top: 130px;
+        left: 65px;
+    }
+    .form-text h1{
+        top: -100px;
+        left: -50px;
+        font-size: 30px;
+    }
+    #login1{
+        top: 280px;
+        left: 40px;
+    }
+    #login1 a{
+        padding: 15px 40px;
+        font-size: 20px;
+    }
+    /*footer*/
+    .text-bumblebee-contact{
+        width: 100%;
+        height: 400px;
+    }
+    .bumblebee-contact{
+        width: 90%;
+        height: 350px;
+    }
+    #address{
+        width: 30%;
+        height: 100%;
+        margin-top: 10px;
+    }
+    #address h1{
+        font-size: 20px;
+    }
+    #address li a{
+        font-size: 16px;
+    }
+    #address ul li i{
+        margin-right: 15px;
+    }
+    .address-icon{
+        margin-left: 30px;
+    }
+    .address-icon img{
+        width: 25px;
+        height: 25px;
+    }
+    #news{
+        width: 36%;
+        height: 100%;
+        margin-top: 10px; 
+    }
+    #news h2{
+        font-size: 20px;
+    }
+    #news ul li a{
+        font-size: 15px;
+    }
+    #news ul li i{
+        font-size: 16px;
+        margin-right: 15px;
+    }
+    #client{
+        width: 30%;
+        height: 100%;
+        margin-top: 10px;
+    }
+    #client h2{
+        font-size: 20px;
+    }
+    #client ul li a{
+        font-size: 15px;
+    }
+    #client ul li i{
+        font-size: 16px;
+        margin-right: 15px;
+    }
+}
